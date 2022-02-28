@@ -52,30 +52,30 @@ public class TraversingArrayLists_Tests {
      */
 
 
-    @Test
-    @Order(3)
-    public void largestSmallestTest() throws FileNotFoundException{
-        Scanner input = new Scanner(new File("files/numbers2.txt"));
-        ArrayList<Integer> expected = new ArrayList<>();
-        while (input.hasNext()) {
-            expected.add(input.nextInt());
-        }
-        ArrayList<Integer> actual = TraversingArrayLists.largestAndSmallest("files/numbers.txt");
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void largestSmallestTestReverse() throws FileNotFoundException{
-        Scanner input = new Scanner(new File("files/numbers2.txt"));
-        ArrayList<Integer> expected = new ArrayList<>();
-        while (input.hasNext()) {
-            expected.add(input.nextInt());
-        }
-        ArrayList<Integer> actual = TraversingArrayLists.largestAndSmallest("files/numbers3.txt");
-        assertEquals(expected, actual);
-    }
-
-
+//    @Test
+//    @Order(3)
+//    public void largestSmallestTest() throws FileNotFoundException{
+//        Scanner input = new Scanner(new File("files/numbers2.txt"));
+//        ArrayList<Integer> expected = new ArrayList<>();
+//        while (input.hasNext()) {
+//            expected.add(input.nextInt());
+//        }
+//        ArrayList<Integer> actual = TraversingArrayLists.largestAndSmallest("files/numbers.txt");
+//        assertEquals(expected, actual);
+//    }
+//
+//    @Test
+//    public void largestSmallestTestReverse() throws FileNotFoundException{
+//        Scanner input = new Scanner(new File("files/numbers2.txt"));
+//        ArrayList<Integer> expected = new ArrayList<>();
+//        while (input.hasNext()) {
+//            expected.add(input.nextInt());
+//        }
+//        ArrayList<Integer> actual = TraversingArrayLists.largestAndSmallest("files/numbers3.txt");
+//        assertEquals(expected, actual);
+//    }
+//
+//
 
 
 

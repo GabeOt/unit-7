@@ -16,18 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ArrayListAlgorithms_Tests {
 
-/*
-    @Test
-    public void fileDuplicatesTest() throws FileNotFoundException{
-        ArrayList<Integer> expected = new ArrayList<>();
-        expected.add(5);
-        expected.add(9);
-        expected.add(22);
-        expected.add(-4);
-        expected.add(3);
-        ArrayList<Integer> actual = ArrayListAlgorithms.fileDuplicates("files/set1.txt", "files/set2.txt");
-        assertEquals(expected, actual);
-    }
+
 
     @Test
     public void fileDuplicatesTestTwo() throws FileNotFoundException {
@@ -40,7 +29,7 @@ public class ArrayListAlgorithms_Tests {
      assertEquals(expected, actual);
     }
 
-*/
+
 
 
 
